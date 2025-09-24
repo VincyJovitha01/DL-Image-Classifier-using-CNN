@@ -210,10 +210,9 @@ def predict_image(model, image_index, dataset):
     plt.show()
     print(f'Actual: {class_names[label]}, Predicted: {class_names[predicted.item()]}')
 
-
-
 # Example Prediction
-predict_image(model, image_index=80, dataset=test_dataset)```
+predict_image(model, image_index=80, dataset=test_dataset)
+```
 
 ### OUTPUT
 
